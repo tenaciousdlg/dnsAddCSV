@@ -21,16 +21,16 @@ pip install cloudflare
 
 More information on python-cloudflare can be found [here](https://github.com/cloudflare/python-cloudflare).
 
-# How to use the tool.
+### How to use the tool.
 
-## Set your user's environment variables
+#### Set your user's environment variables
 
 ```
 export CF_API_EMAIL='user@example.com'
 export CF_API_KEY='00000000000000000000000000000000'
 ```
 
-## Use the command line options -i and -z to specify the relative location of your CSV file and the name of the zone.
+#### Use the command line options -i and -z to specify the relative location of your CSV file and the name of the zone.
 
 ```
 python dnsAddCSV.py -i file.csv -z example.com
