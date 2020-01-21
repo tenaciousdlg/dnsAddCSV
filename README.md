@@ -33,6 +33,6 @@ export CF_API_KEY='00000000000000000000000000000000'
 #### Use the command line options -i and -z to specify the relative location of your CSV file and the name of the zone.
 
 ```
-python dnsAddCSV.py -i file.csv -z example.com
+python dnsAddCSV.py -i ./file.csv -z example.com
 ```
 
