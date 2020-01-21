@@ -10,7 +10,7 @@ import csv
 import CloudFlare
 import argparse
 
-parser = argparse.ArgumentParser(description='Flag and Usage Help')
+parser = argparse.ArgumentParser(description='DNS Records from CSV')
 parser.add_argument("-i", default=None, required=True, type=str, help="Relative location of CSV file. Example: -i ./test.csv")
 parser.add_argument("-z", default=None, required=True, type=str, help="Name of Cloudflare domain such as example.com")
 args = parser.parse_args()
