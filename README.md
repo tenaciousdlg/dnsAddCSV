@@ -30,9 +30,9 @@ export CF_API_EMAIL='user@example.com'
 export CF_API_KEY='00000000000000000000000000000000'
 ```
 
-#### Use the command line options -i and -z to specify the relative location of your CSV file and the name of the zone.
+#### Use the command line options -i and -z to specify the relative location of your CSV file and the name of the zone. The -a flag is used to specify the account that holds the zone at Cloudflare.
 
 ```
-python dnsAddCSV.py -i ./file.csv -z example.com
+python dnsAddCSV.py -i ./file.csv -z example.com -a "Example Sites"
 ```
 
